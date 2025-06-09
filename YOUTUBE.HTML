@@ -4,16 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="youtube.css">
+    <link rel="stylesheet" href="styles/video-preview.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
+<div class="header">
+    <div class="left-section">
+        <img src="ICONS/hamburger-menu.svg" class="hamburger-menu">
+        <img src="ICONS/youtube-logo.svg" class="youtube-logo">
+    </div>
+    <div class="middle-section">
+        <input type="text" name="search" id="search-bar" placeholder="Search" class="search-bar">
+        <button class="search-icon">
+            <img src="ICONS/search.svg" class="search-icon-img">
+        </button>
+        <button class="voice-search-icon">
+            <img src="ICONS/voice-search-icon.svg" class="voice-search-icon-img">
+        </button>
+    </div>
+    <div class="right-section">
+        <img src="ICONS/upload.svg" class="upload-icon">
+        <img src="ICONS/youtube-apps.svg" class="youtube-apps-icon">
+        <div class="notification-icon-container">
+            <img src="ICONS/notifications.svg" class="notification-icon">
+            <div class="notification-num">3</div>
+        </div>
+        <img src="my-channel.jpeg" class="user-icon">
+    </div>
+</div>
+<div class="sidebar">
+    <div class="sidebar-header">
+        <img src="ICONS/home.svg" alt="home-icon" >
+        <div >Home</div>
+    </div>
+    <div class="sidebar-header">
+        <img src="ICONS/explore.svg" alt="explore-icon">
+        <div >Explore</div>
+    </div>
+    <div class="sidebar-header">
+        <img src="ICONS/subscriptions.svg" alt="subscriptions-icon">
+        <div >Subscriptions</div>
+    </div>
+    <div class="sidebar-header">
+        <img src="ICONS/originals.svg" alt="originals-icon" >
+        <div>Originals</div>
+    </div>
+    <div class="sidebar-header">
+        <img src="ICONS/youtube-music.svg" alt="youtube-music-icon" >
+        <div>YouTube Music</div>
+    </div>
+    <div class="sidebar-header">
+        <img src="ICONS/library.svg" alt="library-icon" >
+        <div>Library</div>
+    </div>
+</div>
     <div class="video-grid">
         <div class="video-preview">
         <div class="video-thumbnail">
             <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY"><img src="thumbnail-1.webp"></a>
+            <div class="video-time">14:20</div>
         </div>
         <div class="video-details">
             <div class="channel-logo">
@@ -33,6 +87,7 @@
     <div class="video-preview">
         <div class="video-thumbnail">
             <img src="thumbnail-2.webp">
+            <div class="video-time">8:22</div>
         </div>
         <div class="video-details">
             <div class="channel-logo">
@@ -52,6 +107,7 @@
     <div class="video-preview">
         <div class="video-thumbnail">
             <img src="thumbnail-3.webp">
+            <div class="video-time">9:13</div>
         </div>
         <div class="video-details">
             <div class="channel-logo">
@@ -71,6 +127,7 @@
     <div class="video-preview">
         <div class="video-thumbnail">
             <img src="thumbnail-4.webp">
+            <div class="video-time">22:09</div>
         </div>
         <div class="video-details">
             <div class="channel-logo">
@@ -90,6 +147,7 @@
     <div class="video-preview">
         <div class="video-thumbnail">
             <img src="thumbnail-5.webp">
+            <div class="video-time">11:17</div>
         </div>
         <div class="video-details">
             <div class="channel-logo">
@@ -109,6 +167,7 @@
     <div class="video-preview">
         <div class="video-thumbnail">
             <img src="thumbnail-6.webp">
+            <div class="video-time">19:59</div>
         </div>
         <div class="video-details">
             <div class="channel-logo">
